@@ -1,3 +1,23 @@
-<h1>Hello World</h1>
-<h2>Версия V1 уже запущеная...</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae delectus deserunt distinctio, dolor dolores earum enim esse et eum excepturi expedita facere facilis hic in incidunt ipsum iure iusto maxime molestias nesciunt nihil non odio omnis possimus quas quidem ratione sapiente similique tempore tenetur velit vero vitae! Consequatur, dolorem!</p>
+<table>
+  <thead>
+  <tr>
+    <th> #ID </th>
+    <th> Название компании </th>
+    <th> Long </th>
+    <th> Lat </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor = "let item of userData">
+    <th> {{item.id}} </th>
+    <td> {{item.company.name}}
+    </td>
+    <td> {{item.address.geo.lng}}
+    </td>
+    <td> {{item.address.geo.lat}}
+    </td>
+  </tr>
+  </tbody>
+</table>
+<hr>
+<div id="map"> </div>
