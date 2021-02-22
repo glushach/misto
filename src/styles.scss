@@ -2,6 +2,11 @@
 @import '~normalize.css';
 @import "~@tomtom-international/web-sdk-maps";
 
+html,
+body {
+  height: 100%;
+}
+
 h1 {
   background: tomato;
 }
@@ -15,3 +20,12 @@ ul {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 50px);
+
+}
+
+

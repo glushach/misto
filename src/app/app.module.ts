@@ -17,6 +17,8 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { FooterComponent } from './footer/footer.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { MatListModule } from '@angular/material/list';
     HomeComponent,
     MapComponent,
     ContactComponent,
-    MainNavComponent
+    MainNavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { MatListModule } from '@angular/material/list';
     LayoutModule,
     MatButtonModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

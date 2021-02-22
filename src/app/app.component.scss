@@ -1,25 +1,2 @@
-.navbar {
-  background: #4682B4;
-  height: 50px;
-  a {
-    line-height: 48px;
-  }
-}
-.footer {
-  background: tomato;
-  height: 50px;
-  .list {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-    .list-item {
-      line-height: 48px;
-    }
-  }
-}
 
-.active {
-  color: green;
-}
 

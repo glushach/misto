@@ -1,0 +1,17 @@
+.footer {
+  flex: 0 0 auto;
+  background: tomato;
+  .list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    .list-item {
+      line-height: 48px;
+    }
+  }
+}
+
+.active {
+  color: green;
+}
